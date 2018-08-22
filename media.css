@@ -1,0 +1,142 @@
+a{
+	text-decoration:none
+}
+.header{
+	 height:150px;
+	 background-color:#87E6B5
+ }
+.menu{
+	 display:flex;
+	 flex-direction:row;
+	padding-top:20px
+	
+ }
+ .menu-itemOne{
+	 margin-left:200px
+ }
+.menu-item, .menu-itemOne{
+	margin-top:30px;
+	 margin-right:70px;
+	  font-size:30px;
+	color:white
+ }
+.menu-item:hover, .menu-itemOne:hover, .menu-itemTwo:hover{
+	  background-color:red;
+	    height:40px
+}
+.menu-itemTwo{
+	margin-top:30px;
+	  font-size:30px;
+	color:white
+}
+.block-in-in{
+	display:flex;
+	flex-direction:row;
+	}
+.newspapers{
+	display:flex;
+	flex-direction:row;
+	font-size:120px;
+	padding-left:80px;
+	padding-top:25px;
+}
+.news{
+	line-height:1px;
+	font-size:18px;
+	padding-left:20px;
+	padding-top:5px;
+}
+.newsss{
+	display:flex;
+	flex-direction:column
+}
+.block-in-block{
+	padding-right:25px;
+	padding-left:25px;
+	width:150px;
+	background-color:#E68768;
+	line-height:35px;
+	display:flex;
+	flex-direction:column;
+}
+.class{
+	color:#E6FFFF;
+	padding-left:10px;
+}
+.class:hover{
+	background:#7DFFFF
+}
+ 
+ @media screen and (max-width: 1100px){
+	 .menu-itemOne{
+		 margin-left:0px
+}
+.news{
+line-height:15px;}
+ }
+@media screen and (min-width: 600px){
+.click{
+	display:none
+}
+}
+ @media screen and (max-width: 600px){
+.menu-item, .menu{
+	display:none;
+}
+.block-in-block{
+	margin-left:-100px;
+}
+.block-in-block:hover{
+	margin-left:0px;
+}
+.click:hover  .menu-item {
+	 background-color:blue;
+	 
+ }
+ .header{
+	 padding-top:40px;
+	 height:110px
+	 
+ }
+.click{
+	margin-left:60px;
+	font-size:30px;
+}
+.newspapers{
+	display:flex;
+	flex-direction:column;
+	font-size:80px;
+	
+}
+.news{
+	line-height:10px;
+	font-size:13px;
+	margin-left:-100px
+}
+
+
+  /*@media screen and (max-width: 600px){
+    .menu-item {
+        display: none;
+        padding: 0;
+        font-size: 20px;
+    }
+    .block{
+        display: none;
+    }
+    .header{
+        margin-left: -90px;
+        height: 500px;
+        width: 100px;
+        display: flex;
+        flex-direction: column
+    }
+    .header:hover .menu-item {display: block;
+        
+        margin-left: 200px
+    }
+}*/
+
+
+ 
+ 
